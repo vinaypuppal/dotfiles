@@ -1,0 +1,9 @@
+[user]
+	email = me@vinaypuppal.com
+	name = vinaypuppal
+[pull]
+	ff = only
+[core]
+	autocrlf = false
+[push]
+	followTags = true

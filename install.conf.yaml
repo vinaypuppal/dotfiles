@@ -1,0 +1,18 @@
+# install.conf.yaml
+- defaults:
+    link:
+      relink: true
+
+- clean: ["~"]
+
+- link:
+    ~/.mackup.cfg: osx/.mackup.cfg
+    ~/Brewfile: osx/Brewfile
+    ~/.zshrc: shell/.zshrc
+    ~/.gitconfig: git/.gitconfig
+    ~/.gitignore: git/.gitignore
+    ~/.gitattributes: git/.gitattributes
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+    - [./shell/fresh.sh]

@@ -1,6 +1,4 @@
-ZSH_BASE=$HOME/dotfiles/shell # Base directory for ZSH configuration
-
-source $HOME/dotfiles/shell/antigen.zsh # Load Antigen
+source $HOME/antigen.zsh # Load Antigen
 
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.

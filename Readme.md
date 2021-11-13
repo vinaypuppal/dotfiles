@@ -17,7 +17,7 @@ My collection of personal dotfiles. Mostly to aid me in bootstrapping a new mach
 
 1. Run the installation with:
    ```sh
-       ./install
+       ./install && ./scripts/fresh.sh
    ```
 1. After mackup is synced with your cloud storage, restore preferences by running `mackup restore`
 1. Restart your computer to finalize the process

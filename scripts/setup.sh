@@ -1,7 +1,7 @@
 case `uname` in
   Darwin)
     # Commands for OS X go here
-    ../install
+    ./fresh.sh
   ;;
   Linux)
     # Commands for Linux go here

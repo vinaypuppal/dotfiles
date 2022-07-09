@@ -48,7 +48,6 @@ antigen apply
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Shortcuts
-alias code="code-insiders"
 alias ll="ls -al";
 alias sz="source ~/.zshrc";
 

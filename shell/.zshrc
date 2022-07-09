@@ -61,6 +61,7 @@ alias ga="git add .";
 alias stash="git stash -u"
 
 # Yarn
+alias yarn="pnpm"
 alias y="yarn";
 alias yd="yarn dev";
 alias yds="yarn dev-server";
